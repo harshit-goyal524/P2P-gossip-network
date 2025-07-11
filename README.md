@@ -90,3 +90,10 @@ To test peer failure handling:
 
 ---
 
+## **🔮 Future Scope**
+
+- **Extend to Multi-Device Deployment**:  
+  Currently, the system runs entirely on a **single local machine** using `127.0.0.1`. A natural extension is to enable **real distributed deployment** across **multiple machines or devices** in a real network by:
+  - Using **public IPs** instead of localhost.
+  - Adding **encryption/authentication** for secure communication across the internet.
+  - Supporting **peer discovery over WAN** and dynamic peer joining in real-world environments.
